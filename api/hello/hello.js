@@ -5,7 +5,7 @@ module.exports.sayHello = async function (context, req) {
 
   if (req.query.name || (req.body && req.body.name)) {
     context.res = {
-      // status: 200, /* Defaults to 200 changeeeeee*/
+      // status: 200, /* Defaults to 2000 changeeeeee*/
       body: 'Hi ' + (req.query.name || req.body.name),
     };
   } else {
