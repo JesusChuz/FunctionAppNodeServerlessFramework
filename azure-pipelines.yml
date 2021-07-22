@@ -34,4 +34,5 @@ steps:
     azureSubscription: 'MAIC - TEK Experts CR - v-juasol Group#2 (bddf3c59-769c-49a7-a515-6310ce264e6a)'
     appType: 'functionApp'
     WebAppName: 'jesumeServerlessNode'
+    DeploymentType: zipDeploy
     packageForLinux: '$(System.DefaultWorkingDirectory)/.serverless/*.zip'
